@@ -1,0 +1,332 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+        "spec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/apm-install-dir-117815-41596-82xosc.9pojxuhaor"
+    ]
+  ],
+  "_from": "../d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+  "_id": "linter-chktex@1.3.1",
+  "_inCache": true,
+  "_location": "/linter-chktex",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+    "spec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+  "_shasum": "428fe6cec166282d1e32ba8b5ef60cc7e1223636",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-117815-41596-ihc3mh.u6xjzzd7vi/package.tgz",
+  "_where": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/apm-install-dir-117815-41596-82xosc.9pojxuhaor",
+  "activationCommands": [],
+  "bugs": {
+    "url": "https://github.com/nscaife/linter-chktex/issues"
+  },
+  "dependencies": {
+    "atom-linter": "^3.2.0",
+    "atom-package-deps": "^4.6.0",
+    "xregexp": "^2.0.0"
+  },
+  "description": "Linter plugin for LaTeX, using chktex",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nscaife/linter-chktex#readme",
+  "keywords": [
+    "tex",
+    "latex",
+    "lint",
+    "linter",
+    "chktex"
+  ],
+  "license": "MIT",
+  "main": "./lib/linter-chktex",
+  "name": "linter-chktex",
+  "optionalDependencies": {},
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "readme": "# linter-chktex package\n\nThis Atom package provides a [Linter](https://github.com/AtomLinter/linter) interface for the LaTeX `chktex` utility.  It provides real-time stylistic suggestions as you write.\n\n## Installation\n\n1. Install `chktex` if it is not already installed.  `chktex` is installed by default with [TeX Live](https://www.tug.org/texlive/), but you may have to install it separately with other distributions.\n2. `apm install linter-chktex`\n3. If `chktex` is not in your PATH, you will need to set the `executablePath` to point to the `chktex` executable (see below).\n\n## Settings\nYou can configure linter-chktex by editing ~/.atom/config.cson (choose Open Your Config in Atom menu).  If you want to pass additional command line arguments to `chktex` (for example, to enable or disable specific checks), you can do so using the `chktexArgs` setting.\n```\n'linter-chktex':\n    executablePath: \"C:\\\\texlive\\\\2014\\\\bin\\\\win32\\\\chktex.exe\",\n    chktexArgs: [\"-wall\", \"-n22\", \"-n30\", \"-e16\"]\n```\n\nFor more information, see the `chktex` [manual](http://www.nongnu.org/chktex/ChkTeX.pdf).\n\n## Contributing\nIf you would like to contribute, please submit a pull request!\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nscaife/linter-chktex.git"
+  },
+  "version": "1.3.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "atom-linter",
+        "version": "3.4.1",
+        "path": "node_modules/atom-linter/lib/helpers.js"
+      },
+      {
+        "name": "atom-package-deps",
+        "version": "4.6.0",
+        "path": "node_modules/atom-package-deps/lib/index.js"
+      },
+      {
+        "name": "atom-package-path",
+        "version": "1.1.0",
+        "path": "node_modules/atom-package-path/lib/index.js"
+      },
+      {
+        "name": "consistent-env",
+        "version": "1.3.1",
+        "path": "node_modules/consistent-env/lib/index.js"
+      },
+      {
+        "name": "is-utf8",
+        "version": "0.2.1",
+        "path": "node_modules/is-utf8/is-utf8.js"
+      },
+      {
+        "name": "lodash.uniq",
+        "version": "4.5.0",
+        "path": "node_modules/lodash.uniq/index.js"
+      },
+      {
+        "name": "os-tmpdir",
+        "version": "1.0.2",
+        "path": "node_modules/os-tmpdir/index.js"
+      },
+      {
+        "name": "sb-callsite",
+        "version": "1.1.2",
+        "path": "node_modules/sb-callsite/lib/main.js"
+      },
+      {
+        "name": "sb-exec",
+        "version": "3.1.0",
+        "path": "node_modules/sb-exec/lib/index.js"
+      },
+      {
+        "name": "sb-fs",
+        "version": "3.0.0",
+        "path": "node_modules/sb-fs/lib/index.js"
+      },
+      {
+        "name": "sb-memoize",
+        "version": "1.0.2",
+        "path": "node_modules/sb-memoize/lib/index.js"
+      },
+      {
+        "name": "sb-npm-path",
+        "version": "2.0.0",
+        "path": "node_modules/sb-npm-path/lib/index.js"
+      },
+      {
+        "name": "sb-promisify",
+        "version": "2.0.2",
+        "path": "node_modules/sb-promisify/lib/index.js"
+      },
+      {
+        "name": "semver",
+        "version": "5.4.1",
+        "path": "node_modules/semver/semver.js"
+      },
+      {
+        "name": "strip-bom-buf",
+        "version": "1.0.0",
+        "path": "node_modules/strip-bom-buf/index.js"
+      },
+      {
+        "name": "tmp",
+        "version": "0.0.33",
+        "path": "node_modules/tmp/lib/tmp.js"
+      },
+      {
+        "name": "xregexp",
+        "version": "2.0.0",
+        "path": "node_modules/xregexp/xregexp-all.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/linter-chktex.coffee"
+      ],
+      ".js": [
+        "node_modules/atom-linter/lib/helpers.js",
+        "node_modules/atom-package-deps/lib/helpers.js",
+        "node_modules/atom-package-deps/lib/index.js",
+        "node_modules/atom-package-deps/lib/types.js",
+        "node_modules/atom-package-deps/lib/view.js",
+        "node_modules/atom-package-path/lib/index.js",
+        "node_modules/consistent-env/lib/helpers.js",
+        "node_modules/consistent-env/lib/index.js",
+        "node_modules/is-utf8/is-utf8.js",
+        "node_modules/lodash.uniq/index.js",
+        "node_modules/os-tmpdir/index.js",
+        "node_modules/sb-callsite/lib/main.js",
+        "node_modules/sb-exec/decls/jasmine.js",
+        "node_modules/sb-exec/lib/helpers.js",
+        "node_modules/sb-exec/lib/index.js",
+        "node_modules/sb-exec/lib/types.js",
+        "node_modules/sb-fs/lib/index.js",
+        "node_modules/sb-memoize/lib/index.js",
+        "node_modules/sb-npm-path/decls/jasmine.js",
+        "node_modules/sb-npm-path/lib/helpers.js",
+        "node_modules/sb-npm-path/lib/index.js",
+        "node_modules/sb-promisify/lib/index.js",
+        "node_modules/semver/semver.js",
+        "node_modules/strip-bom-buf/index.js",
+        "node_modules/tmp/lib/tmp.js",
+        "node_modules/xregexp/xregexp-all.js"
+      ],
+      ".json": [
+        "node_modules/atom-linter/package.json",
+        "node_modules/atom-package-deps/.eslintrc.json",
+        "node_modules/atom-package-deps/package.json",
+        "node_modules/atom-package-path/package.json",
+        "node_modules/consistent-env/.eslintrc.json",
+        "node_modules/consistent-env/package.json",
+        "node_modules/is-utf8/package.json",
+        "node_modules/lodash.uniq/package.json",
+        "node_modules/os-tmpdir/package.json",
+        "node_modules/sb-callsite/package.json",
+        "node_modules/sb-exec/.eslintrc.json",
+        "node_modules/sb-exec/package.json",
+        "node_modules/sb-fs/package.json",
+        "node_modules/sb-memoize/.eslintrc.json",
+        "node_modules/sb-memoize/package.json",
+        "node_modules/sb-npm-path/.eslintrc.json",
+        "node_modules/sb-npm-path/package.json",
+        "node_modules/sb-promisify/package.json",
+        "node_modules/semver/package.json",
+        "node_modules/strip-bom-buf/package.json",
+        "node_modules/tmp/package.json",
+        "node_modules/xregexp/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "atom-linter": "^3.2.0",
+          "atom-package-deps": "^4.6.0",
+          "xregexp": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-linter/lib",
+          "node_modules/atom-linter"
+        ],
+        "dependencies": {
+          "xregexp": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-package-deps",
+          "node_modules/atom-package-deps/lib"
+        ],
+        "dependencies": {
+          "atom-package-path": "^1.1.0",
+          "sb-exec": "^3.0.1",
+          "sb-fs": "^3.0.0",
+          "semver": "^5.3.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-package-path/lib",
+          "node_modules/atom-package-path",
+          "node_modules/atom-package-path/spec"
+        ],
+        "dependencies": {
+          "sb-callsite": "^1.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/consistent-env",
+          "node_modules/consistent-env/lib"
+        ],
+        "dependencies": {
+          "lodash.uniq": "^4.5.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/sb-exec",
+          "node_modules/sb-exec/decls",
+          "node_modules/sb-exec/lib"
+        ],
+        "dependencies": {
+          "consistent-env": "^1.2.0",
+          "lodash.uniq": "^4.5.0",
+          "sb-npm-path": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/sb-fs/lib",
+          "node_modules/sb-fs"
+        ],
+        "dependencies": {
+          "sb-promisify": "^2.0.1",
+          "strip-bom-buf": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/sb-npm-path",
+          "node_modules/sb-npm-path/decls",
+          "node_modules/sb-npm-path/lib"
+        ],
+        "dependencies": {
+          "sb-memoize": "^1.0.2",
+          "sb-promisify": "^2.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/strip-bom-buf"
+        ],
+        "dependencies": {
+          "is-utf8": "^0.2.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/tmp/lib",
+          "node_modules/tmp"
+        ],
+        "dependencies": {
+          "os-tmpdir": "~1.0.2"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+"*":
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "vim-mode"
+      "linter"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 16
+    showInvisibles: true
+  "exception-reporting":
+    userId: "59b66f56-73a2-1a3d-1406-45cccb2adb3f"
+  "latex-plus":
+    texBin: "/Library/TeX/texbin"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

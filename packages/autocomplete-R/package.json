@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+        "spec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/apm-install-dir-11817-77131-fei0jb.9babp4x6r"
+    ]
+  ],
+  "_from": "../d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+  "_id": "autocomplete-R@0.6.0",
+  "_inCache": true,
+  "_location": "/autocomplete-R",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+    "spec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+  "_shasum": "1e51d5c53cf04a879f4428615b36c1f39f87048d",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/d-11817-77131-id6aiu.z2txx0f6r/package.tgz",
+  "_where": "/private/var/folders/bc/fqvpsr5j6h98sv_g8xyl02nxdjtzfv/T/apm-install-dir-11817-77131-fei0jb.9babp4x6r",
+  "author": {
+    "name": "Guillaume Chaumet"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumechaumet/autocomplete-R/issues"
+  },
+  "dependencies": {},
+  "description": "autocomplete+ provider for R",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/guillaumechaumet/autocomplete-R#readme",
+  "keywords": [
+    "R",
+    "R stat",
+    "autocomplete",
+    "autocomplete-plus",
+    "autocomplete+",
+    "atom"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "autocomplete-R",
+  "optionalDependencies": {},
+  "private": false,
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# Autocomplete+ provider for R statistical software for atom text editor\n\n## Method\n\n### A script was made to parse R documentation and a json file was build (perfectible)\nsee R/scrapeRdoc.R\n\n### Coffeescript parse json and autocomplete R functions (with Autocomplete plus)\n\n\n## Note\nI'm a noob in coffeescript so this package functionalities could be largely improved.\n\nAlso, any suggestions are welcome!\n\nFeel free to contribute!\n\nSpecial thanks to AltraBio Company\n\n## License\nLicensed under the [MIT License](https://raw.githubusercontent.com/guillaumechaumet/autocomplete-R/master/LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "url": "git+https://github.com/guillaumechaumet/autocomplete-R.git"
+  },
+  "version": "0.6.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "coffeelint.json",
+        "completions.json",
+        "package.json"
+      ],
+      ".coffee": [
+        "lib/main.coffee",
+        "lib/provider.coffee"
+      ]
+    },
+    "folders": []
+  }
+}
